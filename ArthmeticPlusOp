@@ -1,0 +1,20 @@
+class ArthmeticPlusOp
+{
+
+public static void main(String[] args)
+{
+
+int age=25;
+String name="Rahul"+age;
+int age1=26;
+int value=age+age1;
+System.out.println(value);//51
+System.out.println(name);//rahul25
+
+
+}
+
+
+
+
+}
