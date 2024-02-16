@@ -1,0 +1,15 @@
+class VotingCriteria
+
+{
+public static void main(String[]args)
+{
+int age =14;
+//voting condition  age>=18
+
+ boolean result=age>=18;
+System.out.println("the result of voting criteria for you is :"+result);
+
+
+}
+
+}
