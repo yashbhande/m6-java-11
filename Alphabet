@@ -1,0 +1,24 @@
+//1: write a programm in java to check whether the given char is  alphabet or not
+
+//2:write a programm in java to check whether the given number is positive number or negative
+
+
+
+class Quiz
+{
+
+public static void main(String[] args)
+{
+
+char c='d'; 
+
+
+String result1=(c>=65&&c<=90||c>=97&&c<=122)?("this is alphabet"):("this is not  alphabet");
+
+System.out.println(result1);
+
+}
+
+
+
+}
