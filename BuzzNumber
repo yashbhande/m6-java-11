@@ -4,7 +4,7 @@ class BuzzNumber
 public static void main(String[] args)
 {
 int num=86;
-String result=(num%7==0||num%10==7)?("Buzz number"):("Not a Buzz Number");
+String result=((num%7==0)||(num%10==7))?("Buzz number"):("Not a Buzz Number");
 System.out.println(result);
 }
 }
