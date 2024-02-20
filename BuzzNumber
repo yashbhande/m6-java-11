@@ -1,0 +1,16 @@
+// Buzz number is any number  whicgh is divisible by 7  or it can  have last digit as 7.
+class BuzzNumber
+{
+public static void main(String[] args)
+{
+int num=86;
+String result=(num%7==0||num%10==7)?("Buzz number"):("Not a Buzz Number");
+System.out.println(result);
+}
+}
+
+
+
+
+
+
