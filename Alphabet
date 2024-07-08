@@ -13,7 +13,7 @@ public static void main(String[] args)
 char c='d'; 
 
 
-String result1=(c>=65&&c<=90||c>=97&&c<=122)?("this is alphabet"):("this is not  alphabet");
+String result1=(c>=65&&c<=90||c>=97&&c<=122)?("this is alphabet"):("this is not Alphabet");
 
 System.out.println(result1);
 
